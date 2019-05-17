@@ -1,0 +1,11 @@
+<div class="new-cocktail-layout">
+  <div class="new-header">
+    <h1>Add a new cocktail</h1>
+  </div>
+  <div class="new-cocktail-form">
+    <%= render 'form', { action: 'Add' } %>
+    <div class="new-cocktail-bonus">
+      <%= link_to '< Go back', cocktails_path, class: 'go-back-btn' %>
+    </div>
+  </div>
+</div>
